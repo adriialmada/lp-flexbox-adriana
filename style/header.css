@@ -1,0 +1,25 @@
+header{
+      background-color: #1c5052;
+}
+
+.header-ul-lists{
+    list-style: none;
+    display: flex;
+    
+
+    li{
+        borfer: solid 1px black;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        
+        &:hover{
+            background-color: #1c5052;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: #f2f2f2
+    }
+}
